@@ -1,0 +1,37 @@
+# Carpetas comunes a ignorar
+__pycache__/
+*.py[cod]
+*.so
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de configuración de entorno
+*.env
+*.env.*
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+
+# Carpetas ocultas de herramientas
+.mypy_cache/
+.pytest_cache/
+.coverage
+.cache/
+.tox/
+.idea/
+.vscode/
